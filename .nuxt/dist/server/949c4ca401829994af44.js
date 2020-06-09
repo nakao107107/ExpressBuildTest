@@ -1,1 +1,0 @@
-exports.ids=[2],exports.modules={27:function(t,e,n){"use strict";n.r(e);var r={},c=n(1),component=Object(c.a)(r,(function(){var t=this.$createElement;return(this._self._c||t)("div",[this._ssrNode('<button class="btn cu-btn btn-primary">aa</button> <img src="images/pikachu.png" alt="picachu">')])}),[],!1,null,null,"497a2230");e.default=component.exports}};
