@@ -1,0 +1,1 @@
+exports.ids=[1],exports.modules={26:function(t,e,r){t.exports=r.p+"img/b857c8e.png"},28:function(t,e,r){"use strict";r.r(e);var n=r(1),component=Object(n.a)({},(function(){var t=this.$createElement;return(this._self._c||t)("div",[this._ssrNode("<img"+this._ssrAttr("src",r(26))+' alt="pikachu">')])}),[],!1,null,null,"61d3017d");e.default=component.exports}};

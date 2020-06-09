@@ -1,0 +1,26 @@
+service: express-build-test
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws 
+  runtime: nodejs12.x
+  stage: dev 
+  region: ap-northeast-1
+
+functions:
+  nuxt:
+    handler: server/handler.handler
+    timeout: 30
+    environment:
+      NODE_ENV: production
+    events:
+      - http:
+          path: '/'
+          method: get
+          private: false
+      - http:
+          path: '{proxy+}'
+          method: get
+          private: false
