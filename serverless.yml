@@ -11,7 +11,7 @@ provider:
 
 functions:
   nuxt:
-    handler: server/handler.handler
+    handler: server/handler.render
     timeout: 30
     environment:
       NODE_ENV: production
