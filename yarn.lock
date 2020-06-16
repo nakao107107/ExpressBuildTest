@@ -1382,6 +1382,11 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@types/aws-lambda@^8.10.19":
+  version "8.10.56"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.56.tgz#24fc61bf628db86412bb4f28da051df4baa532d6"
+  integrity sha512-jaxu5br/KYxhNBNmr2GoVhIUady2zNsvSRCa4kCHW+GcM4ladPhfEyeJkkNMGo/IlVAfpcPYTsSzhYWZoSgZXA==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -5604,6 +5609,21 @@ num2fraction@^1.2.2:
   resolved "https://registry.yarnpkg.com/num2fraction/-/num2fraction-1.2.2.tgz#6f682b6a027a4e9ddfa4564cd2589d1d4e669ede"
   integrity sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
 
+nuxt-start@^2.12.2:
+  version "2.12.2"
+  resolved "https://registry.yarnpkg.com/nuxt-start/-/nuxt-start-2.12.2.tgz#5bdb1a50a84f07f6ba3a00c8d42b39e5b71f628d"
+  integrity sha512-omOsPd5TjGsqOQ6vj/cRi6cCzI/GqSelC/zN7jLsr63c30WMwe07lBPZYGnQMYT3dJwJdUeAx4q6Mc2UJFpZHg==
+  dependencies:
+    "@nuxt/cli" "2.12.2"
+    "@nuxt/core" "2.12.2"
+    node-fetch "^2.6.0"
+    vue "^2.6.11"
+    vue-client-only "^2.0.0"
+    vue-meta "^2.3.3"
+    vue-no-ssr "^1.1.1"
+    vue-router "^3.1.6"
+    vuex "^3.1.3"
+
 nuxt@^2.0.0:
   version "2.12.2"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.12.2.tgz#959baa919bfef4adcd9e88f84bc948a49a03edd8"
@@ -7289,7 +7309,14 @@ server-destroy@^1.0.1:
   resolved "https://registry.yarnpkg.com/server-destroy/-/server-destroy-1.0.1.tgz#f13bf928e42b9c3e79383e61cc3998b5d14e6cdd"
   integrity sha1-8Tv5KOQrnD55OD5hzDmYtdFObN0=
 
-serverless-offline@^6.4.0:
+serverless-http@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-2.5.0.tgz#3fb3edbf1d1ab5cff966ef9fe14500506f05ef89"
+  integrity sha512-p0c1aTQ7mLZEtQkaP+K/zT4zFUY1YZs+mRlw/Q0yl+HptJL6IOLLylx6WXXFlQoH5+uUibivRzBbNotatvqDkg==
+  optionalDependencies:
+    "@types/aws-lambda" "^8.10.19"
+
+serverless-offline@^6.2.0:
   version "6.4.0"
   resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-6.4.0.tgz#45d685ed1fce88bcfcaff93f876c17316be99d80"
   integrity sha512-7lKvomXG7zOn+UZiL/rqnQcHziObc/NUaz70UD0RFWe9pgBfB5LCOVWKaZI5O/owjwZYaAbN2P6GXjfjpMS5UQ==

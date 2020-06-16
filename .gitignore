@@ -7,3 +7,5 @@ jspm_packages
 
 # nuxt.js build output
 .nuxt
+
+.idea

@@ -1,8 +1,7 @@
-const awsServerlessExpress = require('aws-serverless-express')
-const app = require('./index')
+const sls = require('serverless-http')
+const binaryMimeTypes = require('./binaryMimeTypes')
+const nuxt = require('./index')
 
-const server = awsServerlessExpress.createServer(app)
-
-module.exports.render = (event, context) => {
-  awsServerlessExpress.proxy(server, event, context)
-}
+module.exports.render = sls(nuxt, {
+  binary: binaryMimeTypes
+})
